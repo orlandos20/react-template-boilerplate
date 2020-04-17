@@ -1,15 +1,14 @@
 import React from 'react'
-import { Container } from 'react-bootstrap';
 
 import Header from './Header';
 import Footer from './Footer';
 
 const Layout = (props) => (
-  <Container>
+  <div>
     <Header />
     {props.children}
     <Footer />
-  </Container>
+  </div>
 )
 
 export default Layout;

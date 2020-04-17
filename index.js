@@ -7,6 +7,8 @@ import { AppContainer } from 'react-hot-loader';
 
 import configureStore, { history } from "./src/redux/store";
 
+import "./styles/main.css";
+
 import App from './App';
 
 

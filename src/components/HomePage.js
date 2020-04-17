@@ -1,12 +1,11 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
 
 
 const HomePage = () => {
   return (
-    <Container>
-        <h1> Se está renderizando HomePage</h1>
-    </Container>
+    <div className="container mx-auto mt-12">
+        <h1 className="text-3xl text-center">Welcome to React Template with tailwind</h1>
+    </div>
   )
 }
 
