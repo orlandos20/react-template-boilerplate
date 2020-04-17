@@ -4,8 +4,8 @@ import { Container } from 'react-bootstrap';
 
 const HomePage = () => {
   return (
-    <Container>
-        <h1> Se está renderizando HomePage</h1>
+    <Container className="d-flex justify-content-center mt-5">
+        <h1>Welcome to React Template with React-Bootstrap</h1>
     </Container>
   )
 }
