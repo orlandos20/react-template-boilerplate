@@ -1,7 +1,7 @@
 # react-template-boilerplate
 React Template with minimum boilerplate configuration, the branches will content more configs.
 
-#instructions
+# instructions
 
 execute npm install
 then npm start and start coding!
